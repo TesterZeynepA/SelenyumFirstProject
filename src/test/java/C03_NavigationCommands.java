@@ -32,7 +32,7 @@ Close the Browser.
 
         //navigate().to();  get() methodu ile tamamen aynı işlevi yapar.
         //come back to the Clarusway using the back command.
-        driver.navigate().back();// onve claruswaya sonra amazona gittikten sonra claruswaye geri dönecek
+        driver.navigate().back();// onve claruswaya sonra amazona gittikten sonra claruswaye geri dönecek(geri)
 
         Thread.sleep(3000);
 

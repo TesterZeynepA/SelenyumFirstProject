@@ -50,6 +50,10 @@ public class C05_SetPosition_SetSize {
 
         }System.out.println("Ölçeklendirme testi FAILED");
 
+        String result = xCoordinate==80 && yCoordinate==50 && width==300 && height==500?
+                "Ölçeklendirme testi PASSED":"Ölçeklendirme testi FAILED";
+        System.out.println("result = " + result);
+
         driver.close();
 
 

@@ -29,7 +29,9 @@ public class C01_FirstClass {
 
         driver.close(); //driver clasin en sonuna eklenmelidir, çünkü bu kod driveri ımız kapanır.
 
-        driver.get("http://www.amazon.com/");//
+        driver.get("http://www.amazon.com/");//bu kod satiri hata verir...
+        // bu koddan sonra yeni bir browser acmak istiyorsak driver a yeni deger atamaliyiz
+        //driver objesi olusturmaliyiz
 
 
     }

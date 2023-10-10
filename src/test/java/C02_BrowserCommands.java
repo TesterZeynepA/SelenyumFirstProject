@@ -19,7 +19,7 @@ public class C02_BrowserCommands {
         System.out.println("amazonTitle = " + amazonTitle);//amazonTitle = Amazon.com. Spend less. Smile more.
 
         String amazonUrl = driver.getCurrentUrl();
-        System.out.println("amazonUrl = " + amazonUrl);
+        System.out.println("amazonUrl = " + amazonUrl);//amazonUrl = https://www.amazon.com/
         //amazonUrl = https://www.trendyol.com/ en son trendyol yazıldığı için onun url si geliyor.
 
         driver.close();
